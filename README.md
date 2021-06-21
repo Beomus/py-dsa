@@ -2,7 +2,7 @@
 
 ![lint](https://github.com/Beomus/py-dsa/actions/workflows/black.yml/badge.svg)
 ![unittest](https://github.com/Beomus/py-dsa/actions/workflows/unittest.yml/badge.svg)
-[![CircleCI](https://circleci.com/gh/Beomus/pydsa.svg?style=svg)](https://github.com/Beomus/py-dsa/)
+[![CircleCI](https://circleci.com/gh/Beomus/py-dsa.svg?style=shield)](https://github.com/Beomus/py-dsa/)
 
 
 
