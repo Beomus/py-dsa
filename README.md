@@ -1,5 +1,11 @@
 # Python DSA
 
+![lint](https://github.com/Beomus/py-dsa/actions/workflows/black.yml/badge.svg)
+![unittest](https://github.com/Beomus/py-dsa/actions/workflows/unittest.yml/badge.svg)
+[![CircleCI](https://circleci.com/gh/Beomus/pydsa.svg?style=svg)](https://github.com/Beomus/py-dsa/)
+
+
+
 Some useful and popular Data Structures and Algorithms implemented in Python.
 Please feel to contribute
 
