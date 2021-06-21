@@ -1,6 +1,6 @@
 import unittest
 
-from bst_construction import BST_Iterative, BST_Recursive
+from .bst_construction import BST_Iterative, BST_Recursive
 
 
 class TestBST(unittest.TestCase):
