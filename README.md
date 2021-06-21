@@ -3,7 +3,7 @@
 Some useful and popular Data Structures and Algorithms implemented in Python.
 Please feel to contribute
 
-- Please write your own test cases, structure/examples can be found in any folder)
+- Please write your own test cases, structure/examples can be found in any folder.
 
 ```
 py-dsa
