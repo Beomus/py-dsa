@@ -1,6 +1,6 @@
 import unittest
 
-from .bst_validate import BST, validateBst
+from ..bst_validate import BST, validateBst
 
 
 class TestValidation(unittest.TestCase):
