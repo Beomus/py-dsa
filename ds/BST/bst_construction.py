@@ -1,10 +1,16 @@
+from typing import Any
+
+
 class BST_Iterative:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
 
-    def getMinValue(self):
+    def __repr__(self) -> str:
+        return f"value: {self.value} | left: {self.left} | right: {self.right}"
+
+    def getMinValue(self) -> Any:
         currentNode = self
         while currentNode.left is not None:
             currentNode = currentNode.left
@@ -27,7 +33,7 @@ class BST_Iterative:
                     currentNode = currentNode.right
         return self
 
-    def contains(self, value):
+    def contains(self, value) -> bool:
         currentNode = self
         while currentNode is not None:
             if value < currentNode.value:
@@ -70,7 +76,11 @@ class BST_Iterative:
                         else currentNode.right
                     )
                 elif parentNode.right == currentNode:
-                    parentNode.right == currentNode.left if currentNode.left is not None else currentNode.right
+                    parentNode.right = (
+                        currentNode.left
+                        if currentNode.left is not None
+                        else currentNode.right
+                    )
                 break
         return self
 
@@ -80,6 +90,9 @@ class BST_Recursive:
         self.value = value
         self.left = None
         self.right = None
+
+    def __repr__(self) -> str:
+        return f"value: {self.value} | left: {self.left} | right: {self.right}"
 
     def insert(self, value):
         if value < self.value:
@@ -94,7 +107,7 @@ class BST_Recursive:
                 self.right.insert(value)
         return self
 
-    def contains(self, value):
+    def contains(self, value) -> bool:
         # Write your code here.
         if value < self.value:
             if self.left is None:
@@ -134,7 +147,7 @@ class BST_Recursive:
             elif parent.left == self:
                 parent.left = self.left if self.left is not None else self.right
             elif parent.right == self:
-                parent.right == self.left if self.left is not None else self.right
+                parent.right = self.left if self.left is not None else self.right
         return self
 
     def getMinValue(self):
