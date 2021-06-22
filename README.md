@@ -14,9 +14,9 @@ Please feel to contribute
 ```
 py-dsa
  ┣ ds
- ┃ ┗ BST
- ┃ ┃ ┣ bst_construction.py
- ┃ ┃ ┗ bst_construction_test.py *TEST GOES HERE*
+ ┃ ┗ BST: (parent topic folder)
+ ┃ ┃ ┣ bst_construction.py  ---------> CODE GOES HERE
+ ┃ ┃ ┗ bst_construction_test.py  ----> TEST GOES HERE
  ┣ .pre-commit-config.yaml
  ┗ README.md
 ```
