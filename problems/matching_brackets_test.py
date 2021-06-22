@@ -1,6 +1,6 @@
 import unittest
 
-from matching_brackets import balancedBrackets_v1, balancedBrackets_v2
+from .matching_brackets import balancedBrackets_v1, balancedBrackets_v2
 
 
 class TestBrackets(unittest.TestCase):
